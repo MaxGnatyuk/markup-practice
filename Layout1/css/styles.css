@@ -15,7 +15,8 @@ img {
     }
     
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Exo', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
     color: #626262;
     font-size: 0;
 }
@@ -23,4 +24,28 @@ body {
 .container {
     width: 1170px;
     margin: 0 auto;
+}
+
+header{
+    background-image: url(../img/header-bg.png);
+    height: 812px;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 100;
+    letter-spacing: 40;
+    margin-block-start: 0;
+}
+
+.header{
+    margin:0 auto;
+
+    width: 750px;
+    text-align: center;
+}
+
+.h1{
+    padding-top: 227px;
 }
