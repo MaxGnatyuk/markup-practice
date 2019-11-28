@@ -6,6 +6,7 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+    /*outline: 1px solid red;*/
 }
 
 img {
@@ -22,7 +23,7 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -84,4 +85,47 @@ header img {
     font-size: 15px;
     color: #767678;
     letter-spacing: 1px;
+}
+.section-2{
+   
+    height: 724px;
+    background-image: url(../img/img-section2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.section-2-left{
+    width: 720px;
+    float: left;
+    padding-top: 176px;
+    padding-left: 150px;
+}
+h2{
+    margin-block-start: 0;
+}
+.section-2-title{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.section-2-title::before{
+    display: block;
+    content: 'NEW DESIGN';
+    color: #ff6d6d;
+    font-size: 16px;
+}
+.section-2-title::after{
+    content: '....';
+    color: #ff6d6d;
+    letter-spacing: 4px;
+}
+.section-2-text{
+    font-size: 16px;
+    color: #8a8a8a;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
